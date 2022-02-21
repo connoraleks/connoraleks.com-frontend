@@ -1,0 +1,115 @@
+.landingPage{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 1000px){
+        flex-direction: row;
+    }
+
+    max-width: fit-content;
+    justify-content: space-between;
+
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 1rem;
+    border: 2px solid grey;
+
+    .introText{
+        padding: 1rem 2rem;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        h1{
+            animation: fadeIn 4s;
+        }
+        h3{
+            animation: fadeIn 5s;
+            padding: 0 0.35rem;
+            color: rgb(247, 93, 93);
+        }
+        .bubbleContainer{
+            margin-top: 1rem;
+            @media (min-width: 1000px){
+                margin-top: 0.5rem;
+            }
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+
+            .textBubble{
+                position: relative;
+                background-color: #0b93f6;
+                flex: 0;
+                padding: 0.75rem;
+                border-radius: 25px 25px 0 25px;
+                animation: appear 1.5s, fadeIn 1.5s;
+
+                &:before {
+                    right: -1rem;
+                    width: 20px;
+                    height: 24px;
+                    border-radius: 0 0 10% 0;
+                    background-color: #0b93f6;
+                }
+                &:after {
+                    right: -1.65rem;
+                    border-radius: 0 0 0 90%;
+                    width: 26px;
+                    height: 25px;
+                    background-color: #3f3f3f; /* All tails have the same bg cutout */
+                }
+                &:before,
+                &:after {
+                    position: absolute;
+                    bottom: 0;
+                    content: '';
+                }
+            }
+        }
+    }
+    .animoji{
+        transform: translatey(2vh);
+        padding: 0;
+        margin: 0;
+        animation: fadeInAnimoji 1s;
+    }
+}
+
+@keyframes appear {
+    0%{
+        transform: translatex(5vh);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes fadeInAnimoji {
+    0%{
+        transform: translate(5vw, 2vh);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(5vw, 2vh);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0, 2vh);
+        opacity: 100%;
+    }
+}

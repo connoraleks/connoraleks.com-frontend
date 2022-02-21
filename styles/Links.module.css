@@ -1,0 +1,27 @@
+.links {
+  font-size: 3rem;
+  width: 75vw;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 1000px) {
+  .links {
+    width: 50vw;
+    font-size: 4rem;
+  }
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.links a:hover {
+  transform: scale(1.15);
+}
+.links a:active {
+  color: #f75d5d;
+  transform: scale(1.15);
+}
+
+/*# sourceMappingURL=Links.module.css.map */

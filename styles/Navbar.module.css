@@ -1,0 +1,24 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  background-color: #212121;
+  color: white;
+  opacity: 80%;
+  padding: 1rem;
+}
+.navbar a {
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+.navbar a:hover {
+  transform: scale(1.15);
+}
+.navbar a:active {
+  color: #f75d5d;
+  transform: scale(1.15);
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

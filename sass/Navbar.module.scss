@@ -1,0 +1,23 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    background-color: #212121;
+    color: white;
+    opacity: 80%;
+    padding: 1rem;
+
+    a{
+        font-weight: bold;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        transition: all .2s ease-in-out;
+    }
+    a:hover{
+        transform: scale(1.15);
+    }
+    a:active{
+        color: rgb(247, 93, 93);
+        transform: scale(1.15);
+    }
+}
