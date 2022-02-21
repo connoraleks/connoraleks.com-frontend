@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FunctionComponent, useEffect, useState } from 'react'
-import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedIn';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import styles from '../styles/Links.module.css';
+import github from '../public/github.svg';
+import twitter from '../public/twitter.svg';
+import linkedin from '../public/linkedin.svg';
 const Navbar: FunctionComponent<any> = () => {
     const [size, setSize] = useState("1x");
     useEffect(() => {
@@ -16,9 +16,9 @@ const Navbar: FunctionComponent<any> = () => {
     }, [])
     return (
         <div className={styles.links}>
-            <a href="https://github.com/Connorjaz" target="_blank" rel="noopener noreferrer" className={styles.github}><FontAwesomeIcon icon={faGithub}/></a>
-            <a href="https://www.linkedin.com/in/connor-aleksandrowicz-731233217/" target="_blank" rel="noopener noreferrer" className={styles.linkedin}><FontAwesomeIcon icon={faLinkedin}/></a>
-            <a href="https://twitter.com/Connorjaz" target="_blank" rel="noopener noreferrer" className={styles.twitter}><FontAwesomeIcon icon={faTwitter}/></a>
+            <a href="https://github.com/Connorjaz" target="_blank" rel="noopener noreferrer" className={styles.github}><FontAwesomeIcon icon={github}/></a>
+            <a href="https://www.linkedin.com/in/connor-aleksandrowicz-731233217/" target="_blank" rel="noopener noreferrer" className={styles.linkedin}><FontAwesomeIcon icon={linkedin}/></a>
+            <a href="https://twitter.com/Connorjaz" target="_blank" rel="noopener noreferrer" className={styles.twitter}><FontAwesomeIcon icon={twitter}/></a>
         </div>
     )
 }
