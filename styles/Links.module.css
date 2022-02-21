@@ -1,13 +1,17 @@
 .links {
+  margin: 2rem 0 0 0;
   font-size: 3rem;
-  width: 75vw;
-  margin: 3rem 0;
+  gap: 5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 @media (min-width: 1000px) {
   .links {
-    width: 50vw;
+    margin: 2rem 0;
+  }
+}
+@media (min-width: 1000px) {
+  .links {
     font-size: 4rem;
   }
 }
@@ -22,6 +26,24 @@
 .links a:active {
   color: #f75d5d;
   transform: scale(1.15);
+}
+.links .github {
+  animation: fadeIn 6s;
+}
+.links .linkedin {
+  animation: fadeIn 7s;
+}
+.links .twitter {
+  animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
 }
 
 /*# sourceMappingURL=Links.module.css.map */

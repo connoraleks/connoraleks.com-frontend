@@ -3,12 +3,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css';
-import Image from 'next/image';
-import animoji from '../public/animoji.png'
 import Profile from '../components/Profile';
 import Navbar from '../components/Navbar';
-import Skills from '../components/Skills';
-import Links from '../components/Links';
 
 
 const Home: NextPage = () => {
@@ -22,7 +18,6 @@ const Home: NextPage = () => {
       </Head>
       <Navbar/>
       <Profile/>
-      <Links/>
       <div className={styles.content}>
 
       </div>
