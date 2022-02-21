@@ -1,14 +1,9 @@
 .links {
-  margin: 2rem 0 0 0;
+  margin-bottom: 5rem;
   font-size: 3rem;
   gap: 5rem;
   display: flex;
   justify-content: center;
-}
-@media (min-width: 1000px) {
-  .links {
-    margin: 2rem 0;
-  }
 }
 @media (min-width: 1000px) {
   .links {
@@ -35,15 +30,6 @@
 }
 .links .twitter {
   animation: fadeIn 8s;
-}
-
-@keyframes fadeIn {
-  0%, 50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
 }
 
 /*# sourceMappingURL=Links.module.css.map */

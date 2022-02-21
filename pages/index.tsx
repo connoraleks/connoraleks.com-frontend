@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css';
 import Profile from '../components/Profile';
 import Navbar from '../components/Navbar';
+import Links from '../components/Links';
 
 
 const Home: NextPage = () => {
@@ -16,8 +17,10 @@ const Home: NextPage = () => {
         <meta name="description" content="Welcome to Project Sigma" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div></div>
       <Navbar/>
       <Profile/>
+      <Links/>
       <div className={styles.content}>
 
       </div>

@@ -1,8 +1,5 @@
 .links{
-    margin: 2rem 0 0 0;
-    @media (min-width: 1000px){
-        margin: 2rem 0;
-    }
+    margin-bottom: 5rem;
     font-size: 3rem;
     gap: 5rem;
     @media (min-width: 1000px){
@@ -30,14 +27,5 @@
     }
     .twitter{
         animation: fadeIn 8s;
-    }
-}
-
-@keyframes fadeIn {
-    0%,50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100;
     }
 }
