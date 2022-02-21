@@ -4,7 +4,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedIn';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import styles from '../styles/Links.module.css';
-
 const Navbar: FunctionComponent<any> = () => {
     const [size, setSize] = useState("1x");
     useEffect(() => {
