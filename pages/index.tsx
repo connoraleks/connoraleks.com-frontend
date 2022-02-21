@@ -9,7 +9,12 @@ import Links from '../components/Links';
 
 
 const Home: NextPage = () => {
-
+  useEffect(() => {
+    setTimeout(() => window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    }), 0)
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
