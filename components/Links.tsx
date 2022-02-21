@@ -5,11 +5,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedIn';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import styles from '../styles/Links.module.css';
 
-type props = {
-
-}
-
-const Navbar: FunctionComponent<props> = () => {
+const Navbar: FunctionComponent<any> = () => {
     const [size, setSize] = useState("1x");
     useEffect(() => {
         window.addEventListener('resize', () =>{
