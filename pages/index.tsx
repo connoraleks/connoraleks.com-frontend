@@ -11,7 +11,7 @@ import Links from '../components/Links';
 const Home: NextPage = () => {
   useEffect(() => {
     setTimeout(() => window.scrollTo({
-      top: 0,
+      top: -1,
       behavior: 'smooth'
     }), 0)
   }, []);
