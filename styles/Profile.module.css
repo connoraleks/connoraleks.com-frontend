@@ -32,18 +32,13 @@
   color: #f75d5d;
 }
 .landingPage .introText .bubbleContainer {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: left;
-}
-@media (min-width: 1000px) {
-  .landingPage .introText .bubbleContainer {
-    margin-top: 1rem;
-  }
 }
 .landingPage .introText .bubbleContainer .textBubble {
   position: relative;
