@@ -4,6 +4,20 @@
   flex-direction: column;
   align-items: center;
 }
+.container .intro {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: fit-content;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1000px) {
+  .container .intro {
+    justify-content: space-evenly;
+  }
+}
 .container .content {
   height: 100vh;
   width: 100vw;

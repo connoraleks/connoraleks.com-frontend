@@ -22,12 +22,12 @@ const Home: NextPage = () => {
         <meta name="description" content="Welcome to Project Sigma" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div></div>
       <Navbar/>
-      <Profile/>
-      <Links/>
+      <div className={styles.intro}>
+        <Profile/>
+        <Links/>
+      </div>
       <div className={styles.content}>
-
       </div>
     </div>
   )
