@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FunctionComponent, useEffect, useState } from 'react'
 import Image from 'next/image';
 import styles from '../styles/Links.module.css';
-import SvgGithub from '../components/githubsvg';
+import SvgGithub from './svgs/githubsvg';
 import SvgLinkedin from '../components/linkedinsvg';
 import SvgTwitter from '../components/twittersvg';
 
