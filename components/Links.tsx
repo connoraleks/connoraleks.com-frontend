@@ -3,8 +3,8 @@ import { FunctionComponent, useEffect, useState } from 'react'
 import Image from 'next/image';
 import styles from '../styles/Links.module.css';
 import SvgGithub from './svgs/githubsvg';
-import SvgLinkedin from '../components/linkedinsvg';
-import SvgTwitter from '../components/twittersvg';
+import SvgLinkedin from './svgs/linkedinsvg';
+import SvgTwitter from './svgs/twittersvg';
 
 const Navbar: FunctionComponent<any> = () => {
     const [size, setSize] = useState("1x");
