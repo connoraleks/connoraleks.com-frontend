@@ -1,10 +1,8 @@
-This is a personal project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## It looks crazy
+## Connor Aleks' Personal Website
 Check it out here: https://connoraleks.com/
 
 Im impressed by myself.
 
 ```
-I know its crazy.
+Nice.
 ```
