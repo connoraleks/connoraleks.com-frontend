@@ -1,7 +1,6 @@
 import { FunctionComponent } from 'react'
 import styles from '../styles/Profile.module.css';
 import Image from 'next/image';
-import animoji from '../public/wavingAnimoji.png'
 
 type props = {
 
@@ -21,7 +20,7 @@ const Profile: FunctionComponent<props> = () => {
       </div>
     </div>
     <div className={styles.animoji}>
-      <Image alt="Waving Connor Animoji" src={animoji} width={421} height={421} quality={100} objectPosition={"bottom"} />
+      <Image alt="Waving Connor Animoji" src="/wavingAnimoji.png" width={421} height={421} quality={100} objectPosition={"bottom"} />
     </div>
   </div>
   )
