@@ -3,7 +3,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  max-width: fit-content;
+  height: 100%;
+  max-width: 95%;
   justify-content: space-between;
   background-color: #3f3f3f;
   color: white;
@@ -46,7 +47,7 @@
   flex: 0;
   padding: 0.75rem;
   border-radius: 25px 25px 0 25px;
-  animation: appear 1.5s, fadeIn 1.5s;
+  animation: appear 1.5s, fadeInSlide 1.5s;
 }
 .landingPage .introText .bubbleContainer .textBubble:before {
   right: -1rem;
@@ -67,6 +68,17 @@
   position: absolute;
   bottom: 0;
   content: "";
+}
+.landingPage .introText .bubbleContainer .textBubble p {
+  color: white;
+}
+.landingPage .introText .bubbleContainer .textBubble p a {
+  padding-right: 0.25em;
+  display: inline-block;
+  color: white;
+}
+.landingPage .introText .bubbleContainer .textBubble p a:hover {
+  transform: scale(1.05);
 }
 .landingPage .animoji {
   transform: translatey(2vh);
@@ -91,6 +103,20 @@
     opacity: 0;
   }
   100% {
+    opacity: 100%;
+  }
+}
+@keyframes fadeInSlide {
+  0% {
+    transform: translate(5vw, 0);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(5vw, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
     opacity: 100%;
   }
 }

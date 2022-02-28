@@ -18,7 +18,7 @@ const Navbar: FunctionComponent<any> = () => {
     }, [])
     return (
         <div className={styles.links}>
-            <a href="https://github.com/Connorjaz" target="_blank" rel="noopener noreferrer" className={styles.github}>
+            <a href="https://github.com/connoraleks" target="_blank" rel="noopener noreferrer" className={styles.github}>
                 <SvgGithub fill="white"/>
             </a>
             <a href="https://www.linkedin.com/in/connor-aleksandrowicz-731233217/" target="_blank" rel="noopener noreferrer" className={styles.linkedin}>

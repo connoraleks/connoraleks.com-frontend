@@ -19,9 +19,62 @@
   }
 }
 .container .content {
+  padding: 1rem;
+  overflow: hidden;
+  background-color: black;
+  color: white;
   height: 100vh;
   width: 100vw;
-  background-color: #3f3f3f;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1000px) {
+  .container .content {
+    flex-direction: row;
+  }
+}
+.container .content .right {
+  right: 0;
+}
+.container .content .left .skillsText {
+  border-bottom: 1px solid white;
+}
+@media (min-width: 1000px) {
+  .container .content .left .skillsText {
+    border-bottom: none;
+    border-right: 1px solid white;
+  }
+}
+.container .content .left, .container .content .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 1000px) {
+  .container .content .left, .container .content .right {
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+  }
+}
+.container .content .left div, .container .content .right div {
+  width: 50%;
+  height: 50%;
+}
+
+@keyframes spin {
+  0% {
+    perspective: 25%;
+  }
+  50% {
+    perspective: 0;
+  }
+  100% {
+    perspective: 50%;
+    transform: rotatex(90deg);
+  }
 }
 
 /*# sourceMappingURL=Home.module.css.map */

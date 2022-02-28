@@ -1,25 +1,33 @@
-.skills {
-  margin-top: 5rem;
-  width: 100vw;
-  height: 75vh;
-  background-color: #474444;
-  padding: 0;
-  justify-items: center;
-  align-items: center;
+.landingPage {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #3f3f3f;
+  color: white;
+  border-radius: 1rem;
+  border: 2px solid grey;
+}
+.landingPage h2 {
+  margin-bottom: 2rem;
+}
+.landingPage .skills {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
 }
 @media (min-width: 350px) {
-  .skills {
+  .landingPage .skills {
     grid-template-columns: repeat(2, 1fr);
+    gap: 50vw;
   }
 }
 @media (min-width: 700px) {
-  .skills {
+  .landingPage .skills {
     grid-template-columns: repeat(4, 1fr);
+    gap: 5vw;
   }
 }
-.skills div {
+.landingPage .skills div {
   padding: 1rem;
   width: 100px;
   height: 100px;

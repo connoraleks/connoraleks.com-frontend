@@ -6,7 +6,9 @@ import styles from '../styles/Home.module.css';
 import Profile from '../components/Profile';
 import Navbar from '../components/Navbar';
 import Links from '../components/Links';
-
+import Image from 'next/image';
+import animoji from '../public/shocked.png'
+import Skills from '../components/Skills';
 
 const Home: NextPage = () => {
   useEffect(() => {
@@ -22,12 +24,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Welcome to Project Sigma" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar/>
       <div className={styles.intro}>
         <Profile/>
         <Links/>
-      </div>
-      <div className={styles.content}>
       </div>
     </div>
   )

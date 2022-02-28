@@ -23,13 +23,36 @@
   transform: scale(1.15);
 }
 .links .github {
-  animation: fadeIn 6s;
+  animation: fadeInSlide 4s;
 }
 .links .linkedin {
-  animation: fadeIn 7s;
+  animation: fadeInSlide 4.5s;
 }
 .links .twitter {
-  animation: fadeIn 8s;
+  animation: fadeInSlide 5s;
+}
+
+@keyframes fadeIn {
+  0%, 75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@keyframes fadeInSlide {
+  0% {
+    transform: translate(5vw, 0);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(5vw, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
 }
 
 /*# sourceMappingURL=Links.module.css.map */
