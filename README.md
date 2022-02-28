@@ -6,7 +6,7 @@
   Im impressed by myself.
 
   ```
-  <p align="center">Nice.</p>
+  Nice.
   ```
 
 </p>
