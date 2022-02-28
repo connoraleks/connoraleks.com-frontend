@@ -13,7 +13,7 @@ const Navbar: FunctionComponent<any> = () => {
             if(window.innerWidth < 500) setSize("2x")
             else if(window.innerWidth < 1000) setSize("3x")
             else if(window.innerWidth < 1500) setSize("4x")
-
+            //redeploy
         });
     }, [])
     return (
