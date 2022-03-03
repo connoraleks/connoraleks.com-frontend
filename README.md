@@ -1,9 +1,13 @@
-This is a personal project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  
+  ## Connor Aleks' Personal Website
+  Check it out here: https://connoraleks.com/
 
-## It looks crazy
+  Im impressed by myself.
 
-Im impressed by myself.
+  ```
+  Nice.
+  ```
 
-```
-I know its crazy.
-```
+</p>
+
