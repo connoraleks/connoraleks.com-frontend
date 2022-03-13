@@ -20,9 +20,9 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Project Sigma</title>
-        <meta name="description" content="Welcome to Project Sigma" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Connor Aleksandrowicz</title>
+        <meta name="description" content="Connor Aleksandrowicz personal website" />
+        <link rel="icon" href="/shocked.png" />
       </Head>
       <div className={styles.intro}>
         <Profile/>
