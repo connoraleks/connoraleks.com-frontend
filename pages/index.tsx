@@ -4,11 +4,8 @@ import Head from 'next/head'
 import { useEffect, useState } from 'react';
 import styles from '../styles/Home.module.css';
 import Profile from '../components/Profile';
-import Navbar from '../components/Navbar';
 import Links from '../components/Links';
-import Image from 'next/image';
-import animoji from '../public/shocked.png'
-import Skills from '../components/Skills';
+
 
 const Home: NextPage = () => {
   useEffect(() => {
