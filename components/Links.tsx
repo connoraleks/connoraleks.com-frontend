@@ -24,7 +24,7 @@ const Navbar: FunctionComponent<any> = () => {
             <a href="https://www.linkedin.com/in/connor-aleksandrowicz-731233217/" target="_blank" rel="noopener noreferrer" className={styles.linkedin}>
                 <SvgLinkedin fill="white"/>
             </a>
-            <a href="https://twitter.com/connoralek" target="_blank" rel="noopener noreferrer" className={styles.twitter}>
+            <a href="https://twitter.com/cjaleks" target="_blank" rel="noopener noreferrer" className={styles.twitter}>
                 <SvgTwitter fill="white"/>
             </a>
         </div>
