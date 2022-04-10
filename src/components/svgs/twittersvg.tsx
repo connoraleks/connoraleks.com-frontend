@@ -1,4 +1,3 @@
-import * as React from "react";
 import { FunctionComponent } from "react";
 const Svgtwitter: FunctionComponent<any> = (props) => (
     <svg

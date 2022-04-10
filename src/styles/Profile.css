@@ -1,4 +1,6 @@
 .landingPage {
+  padding: 1rem 1rem 0 1rem;
+  box-shadow: 5px 5px 15px black, inset -0.25px -0.25px 15px black;
   margin: 5rem 0;
   overflow: hidden;
   display: flex;
@@ -23,17 +25,23 @@
   flex-direction: column;
   text-align: left;
   justify-content: center;
+  text-shadow: 6px 6px 15px black;
 }
 .landingPage .introText h1 {
-  animation: fadeIn 4s;
+  animation: fadeIn 3s;
 }
 .landingPage .introText h3 {
-  animation: fadeIn 5s;
-  padding: 0 0.35rem;
-  color: #f75d5d;
+  padding-left: 0.15rem;
+  animation: fadeIn 3.5s;
+  color: rgb(237, 63, 63);
+}
+@media (min-width: 1000px) {
+  .landingPage .introText h3 {
+    padding-left: 0.55rem;
+  }
 }
 .landingPage .introText .bubbleContainer {
-  margin-top: 0.75rem;
+  margin-top: 1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -70,6 +78,7 @@
   content: "";
 }
 .landingPage .introText .bubbleContainer .textBubble p {
+  text-shadow: 0 0 0 black;
   color: white;
 }
 .landingPage .introText .bubbleContainer .textBubble p a {
@@ -81,8 +90,8 @@
   transform: scale(1.05);
 }
 .landingPage .animoji {
+  box-sizing: border-box;
   transform: translatey(2vh);
-  padding: 0;
   margin: 0;
   animation: fadeInAnimoji 1s;
 }
@@ -135,4 +144,4 @@
   }
 }
 
-/*# sourceMappingURL=Profile.module.css.map */
+/*# sourceMappingURL=Profile.css.map */

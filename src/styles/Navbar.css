@@ -23,8 +23,8 @@
   transform: scale(1.15);
 }
 .navbar a:active {
-  color: #f75d5d;
+  color: rgb(247, 93, 93);
   transform: scale(1.15);
 }
 
-/*# sourceMappingURL=Navbar.module.css.map */
+/*# sourceMappingURL=Navbar.css.map */
