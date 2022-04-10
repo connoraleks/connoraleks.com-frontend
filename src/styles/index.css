@@ -1,0 +1,51 @@
+* {
+  transition: all 0.2s ease-in-out;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, "SF Pro";
+  transition: all 0.2s ease-in-out;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #212121;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+@media (min-width: 1000px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 1rem;
+}
+@media (min-width: 1000px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+}
+@media (min-width: 1000px) {
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

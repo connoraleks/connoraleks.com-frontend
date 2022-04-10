@@ -1,0 +1,137 @@
+.about {
+  padding: 1rem 1rem 0 1rem;
+  box-shadow: 5px 5px 15px black, inset -0.25px -0.25px 15px black;
+  margin: 5rem 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 95%;
+  justify-content: space-between;
+  background-color: #3f3f3f;
+  color: white;
+  border-radius: 1rem;
+  border: 2px solid grey;
+}
+@media (min-width: 1000px) {
+  .about {
+    flex-direction: row;
+  }
+}
+.about .aboutText {
+  padding: 1rem 2rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  text-shadow: 6px 6px 15px black;
+}
+.about .aboutText h1 {
+  animation: fadeIn 3s;
+}
+.about .aboutText .bubbleContainer {
+  margin-top: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.about .aboutText .bubbleContainer .textBubble {
+  position: relative;
+  background-color: #0b93f6;
+  flex: 0;
+  padding: 0.75rem;
+  border-radius: 25px 25px 0 25px;
+  animation: appear 1.5s, fadeInSlide 1.5s;
+}
+.about .aboutText .bubbleContainer .textBubble:before {
+  right: -1rem;
+  width: 20px;
+  height: 24px;
+  border-radius: 0 0 10% 0;
+  background-color: #0b93f6;
+}
+.about .aboutText .bubbleContainer .textBubble:after {
+  right: -1.65rem;
+  border-radius: 0 0 0 90%;
+  width: 26px;
+  height: 25px;
+  background-color: #3f3f3f;
+  /* All tails have the same bg cutout */
+}
+.about .aboutText .bubbleContainer .textBubble:before, .about .aboutText .bubbleContainer .textBubble:after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+}
+.about .aboutText .bubbleContainer .textBubble p {
+  text-shadow: 0 0 0 black;
+  color: white;
+}
+.about .aboutText .bubbleContainer .textBubble p a {
+  padding-right: 0.25em;
+  display: inline-block;
+  color: white;
+}
+.about .aboutText .bubbleContainer .textBubble p a:hover {
+  transform: scale(1.05);
+}
+.about .animoji {
+  box-sizing: border-box;
+  transform: translatey(2vh);
+  margin: 0;
+  animation: fadeInAnimoji 1s;
+}
+
+@keyframes appear {
+  0% {
+    transform: translatex(5vh);
+  }
+  100% {
+    transform: translatex(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes fadeInSlide {
+  0% {
+    transform: translate(5vw, 0);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(5vw, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
+}
+@keyframes fadeInAnimoji {
+  0% {
+    transform: translate(5vw, 2vh);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(5vw, 2vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 2vh);
+    opacity: 100%;
+  }
+}
+
+/*# sourceMappingURL=About.css.map */
