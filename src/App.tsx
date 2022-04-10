@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
-import Profile from './components/Profile';
+import LandingPage from './components/LandingPage';
+import About from './components/About';
 import Links from './components/Links';
 import './styles/App.css'
 import Navbar from './components/Navbar';
@@ -15,7 +16,7 @@ function App() {
     <div className="container">
       <Navbar/>
       <div className="intro">
-        <Profile/>
+        <LandingPage/>
         <Links/>
       </div>
     </div>

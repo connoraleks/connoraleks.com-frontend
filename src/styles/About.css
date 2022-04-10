@@ -1,4 +1,4 @@
-.landingPage {
+.about {
   padding: 1rem 1rem 0 1rem;
   box-shadow: 5px 5px 15px black, inset -0.25px -0.25px 15px black;
   margin: 5rem 0;
@@ -14,11 +14,11 @@
   border: 2px solid grey;
 }
 @media (min-width: 1000px) {
-  .landingPage {
+  .about {
     flex-direction: row;
   }
 }
-.landingPage .introText {
+.about .aboutText {
   padding: 1rem 2rem;
   padding-bottom: 0;
   display: flex;
@@ -27,20 +27,10 @@
   justify-content: center;
   text-shadow: 6px 6px 15px black;
 }
-.landingPage .introText h1 {
+.about .aboutText h1 {
   animation: fadeIn 3s;
 }
-.landingPage .introText h3 {
-  padding-left: 0.15rem;
-  animation: fadeIn 3.5s;
-  color: rgb(237, 63, 63);
-}
-@media (min-width: 1000px) {
-  .landingPage .introText h3 {
-    padding-left: 0.55rem;
-  }
-}
-.landingPage .introText .bubbleContainer {
+.about .aboutText .bubbleContainer {
   margin-top: 1rem;
   flex: 1;
   display: flex;
@@ -49,7 +39,7 @@
   align-items: center;
   text-align: left;
 }
-.landingPage .introText .bubbleContainer .textBubble {
+.about .aboutText .bubbleContainer .textBubble {
   position: relative;
   background-color: #0b93f6;
   flex: 0;
@@ -57,14 +47,14 @@
   border-radius: 25px 25px 0 25px;
   animation: appear 1.5s, fadeInSlide 1.5s;
 }
-.landingPage .introText .bubbleContainer .textBubble:before {
+.about .aboutText .bubbleContainer .textBubble:before {
   right: -1rem;
   width: 20px;
   height: 24px;
   border-radius: 0 0 10% 0;
   background-color: #0b93f6;
 }
-.landingPage .introText .bubbleContainer .textBubble:after {
+.about .aboutText .bubbleContainer .textBubble:after {
   right: -1.65rem;
   border-radius: 0 0 0 90%;
   width: 26px;
@@ -72,24 +62,24 @@
   background-color: #3f3f3f;
   /* All tails have the same bg cutout */
 }
-.landingPage .introText .bubbleContainer .textBubble:before, .landingPage .introText .bubbleContainer .textBubble:after {
+.about .aboutText .bubbleContainer .textBubble:before, .about .aboutText .bubbleContainer .textBubble:after {
   position: absolute;
   bottom: 0;
   content: "";
 }
-.landingPage .introText .bubbleContainer .textBubble p {
+.about .aboutText .bubbleContainer .textBubble p {
   text-shadow: 0 0 0 black;
   color: white;
 }
-.landingPage .introText .bubbleContainer .textBubble p a {
+.about .aboutText .bubbleContainer .textBubble p a {
   padding-right: 0.25em;
   display: inline-block;
   color: white;
 }
-.landingPage .introText .bubbleContainer .textBubble p a:hover {
+.about .aboutText .bubbleContainer .textBubble p a:hover {
   transform: scale(1.05);
 }
-.landingPage .animoji {
+.about .animoji {
   box-sizing: border-box;
   transform: translatey(2vh);
   margin: 0;
@@ -144,4 +134,4 @@
   }
 }
 
-/*# sourceMappingURL=Profile.css.map */
+/*# sourceMappingURL=About.css.map */

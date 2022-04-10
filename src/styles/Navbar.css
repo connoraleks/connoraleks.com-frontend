@@ -1,30 +1,36 @@
 .navbar {
-  position: absolute;
+  box-shadow: 5px 5px 15px black;
+  z-index: 100;
+  box-sizing: border-box;
+  position: fixed;
   top: 0;
+  width: 100%;
+  backdrop-filter: blur(0.5rem);
+  padding: 1rem;
   display: flex;
-  background-color: #212121;
-  color: white;
-  opacity: 80%;
-  padding: 1.5rem 1rem 0.75rem 1rem;
-  gap: 2rem;
-  border-bottom: 1px solid white;
+  justify-content: center;
+  gap: 3rem;
+  border-bottom: 1px solid grey;
 }
 @media (min-width: 1000px) {
   .navbar {
     gap: 4rem;
   }
 }
-.navbar a {
+.navbar h4 {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
   font-weight: bold;
-  border-radius: 0.5rem;
   transition: all 0.2s ease-in-out;
 }
-.navbar a:hover {
-  transform: scale(1.15);
+.navbar h4:hover {
+  color: lightgrey;
+  transform: scale(1.05);
 }
-.navbar a:active {
+.navbar h4:active {
   color: rgb(247, 93, 93);
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=Navbar.css.map */

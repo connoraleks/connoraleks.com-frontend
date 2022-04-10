@@ -4,7 +4,9 @@ import '../styles/Navbar.css';
 const Navbar: FunctionComponent<any> = () => {
     return (
         <div className="navbar">
-            <a href=".landingPage">Home</a>
+            <h4>Home</h4>
+            <h4>About</h4>
+            <h4>Contact</h4>
         </div>
     );
 }
