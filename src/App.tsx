@@ -19,6 +19,9 @@ function App() {
         <LandingPage/>
         <Links/>
       </div>
+      <div className="about">
+        <About/>
+      </div>
     </div>
   )
 }

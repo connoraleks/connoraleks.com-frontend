@@ -4,7 +4,7 @@ import '../styles/About.css';
 const About: FunctionComponent<any> = () => {
 
   return (
-  <div className="about">
+  <div className="aboutPage">
     <div className="aboutText">
       <h1>About Me</h1>
       <div className="bubbleContainer">
@@ -14,7 +14,7 @@ const About: FunctionComponent<any> = () => {
       </div>
     </div>
     <div className="animoji">
-      <img alt="Waving Connor Animoji" src="/wavingAnimoji.PNG"/>
+      <img alt="Waving Connor Animoji" src="/wavingAnimoji.PNG" style={{maxHeight: "100%", maxWidth: "100%"}}/>
     </div>
   </div>
   )
