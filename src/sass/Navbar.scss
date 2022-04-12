@@ -1,5 +1,5 @@
 .navbar{
-    box-shadow: 5px 5px 15px black;
+    background-color: rgba(10, 17, 33,.85);
     z-index: 100;
     box-sizing: border-box;
     position: fixed;
@@ -15,7 +15,6 @@
     @media (min-width: 1000px){
         gap: 4rem;
     }
-    border-bottom: 1px solid grey;
 
     h4{
         cursor: pointer;
