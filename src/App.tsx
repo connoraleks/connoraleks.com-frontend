@@ -14,14 +14,14 @@ function App() {
   }, []);
   return (
     <div className="container">
-      <Navbar/>
+      {/*<Navbar/>*/}
       <div className="intro">
         <LandingPage/>
         <Links/>
       </div>
-      <div className="about">
+      {/*<div className="about">
         <About/>
-      </div>
+        </div>*/}
     </div>
   )
 }
