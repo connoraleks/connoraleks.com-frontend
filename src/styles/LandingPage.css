@@ -12,6 +12,12 @@
   border-radius: 1rem;
   border: 2px solid grey;
 }
+@media (max-width: 400px) {
+  .landingPage {
+    margin: 1.5rem;
+    margin-top: 0.5rem;
+  }
+}
 @media (min-width: 1000px) {
   .landingPage {
     flex-direction: row;

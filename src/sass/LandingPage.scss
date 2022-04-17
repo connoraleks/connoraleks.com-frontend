@@ -1,6 +1,10 @@
 .landingPage{
     box-shadow: 5px 5px 15px black, inset 0.25px 0.25px 15px -5px black;
     margin: 5rem 1rem;
+    @media (max-width: 400px) {
+        margin: 1.5rem;
+        margin-top: 0.5rem;
+    }
     overflow: hidden;
     display: flex;
     flex-direction: column;
