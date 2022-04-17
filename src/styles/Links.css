@@ -1,14 +1,13 @@
 .links {
-  margin-bottom: 5rem;
   font-size: 3rem;
   gap: 5rem;
   display: flex;
   justify-content: center;
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .links {
     font-size: 2.75rem;
-    gap: 3.75rem;
+    gap: 4.5rem;
   }
 }
 @media (min-width: 1000px) {
