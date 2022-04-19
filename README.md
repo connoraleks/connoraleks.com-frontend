@@ -1,13 +1,3 @@
-<p align="center">
-  
-  ## Connor Aleks' Personal Website
-  Check it out here: https://connoraleks.com/
-
-  Im impressed by myself.
-
-  ```
-  Nice.
-  ```
-
-</p>
-
+# Connor Aleksandrowicz Landing Site
+### React | TypeScript | SCSS  
+This is my landing site containing important links and my resume.
