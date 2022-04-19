@@ -12,6 +12,12 @@
   align-items: center;
   gap: 0.5rem;
 }
+@media (max-width: 500px) {
+  .container .intro {
+    justify-content: first baseline;
+    gap: 5vw;
+  }
+}
 .container .about {
   box-sizing: border-box;
   display: flex;

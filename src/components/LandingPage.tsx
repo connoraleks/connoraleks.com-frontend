@@ -10,7 +10,7 @@ const LandingPage: FunctionComponent<any> = () => {
       <h3>Fullstack Web Developer</h3>
       <div className="bubbleContainer">
         <div className="textBubble">
-          <p>Hello there! My name&apos;s Connor.<br/>I&apos;m a developer from the United States.<br/>Looking for my <a href = '/ConnorAleks.pdf'download={'/ConnorAleks.pdf'}>resume</a>?</p>
+          <p>Hello there! My name&apos;s Connor.<br/>I&apos;m a developer from the United States.<br/>Take a look at my <a href = '/ConnorAleks.pdf'download={'/ConnorAleks.pdf'}>resume</a> and <a target="_blank" rel="noopener noreferrer" href = 'https://stars-mauve.vercel.app/'>portfolio</a>!</p>
         </div>
       </div>
     </div>
