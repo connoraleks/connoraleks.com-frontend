@@ -8,29 +8,8 @@
   flex-direction: column;
   min-height: 97.5vh;
   width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 0.5rem;
-}
-@media (max-width: 500px) {
-  .container .intro {
-    justify-content: first baseline;
-    gap: 5vw;
-  }
-}
-.container .about {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
+  gap: 5vh;
   justify-content: center;
-  align-items: center;
-}
-@media (min-width: 1000px) {
-  .container .about {
-    justify-content: space-evenly;
-  }
 }
 
 @keyframes spin {
